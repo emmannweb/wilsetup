@@ -30,7 +30,7 @@ services:
     image: docker.io/emmann/toyofront:latest
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.frontend.rule=Host(`fondationwilcoxtoyo.com`)"
+      - "traefik.http.routers.frontend.rule=Host(`fondationwilcoxtoyo.org`)"
       - "traefik.http.routers.frontend.entrypoints=websecure"
       - "traefik.http.routers.frontend.tls.certresolver=myresolver"
       - "com.centurylinklabs.watchtower.enable=true"
